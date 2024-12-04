@@ -1,0 +1,128 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f5f5f5;
+    padding-top: 50px; /* 상단 여백 */
+}
+
+/* 로그인 폼 */
+#login-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 250px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* 영화 목록 */
+#movies-list {
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#movies-list ul {
+    padding: 0;
+    margin: 0;
+}
+
+#movies-list li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#movies-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#movies-list span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#movies-list button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#movies-list button:hover {
+    background-color: #218838;
+}
+
+/* 회원가입 폼 */
+#signup-form {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 250px;
+}
+
+#signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+#signup-form button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#signup-form button:hover {
+    background-color: #0056b3;
+}
